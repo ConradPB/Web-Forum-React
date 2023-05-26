@@ -1,6 +1,7 @@
 import React from "react";
-import comments from './commentData'
+import {comments} from './commentData'
 import Card from './Card'
+import './style.css'
 
 function App(){
     return (
