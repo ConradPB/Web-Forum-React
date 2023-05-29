@@ -1,3 +1,29 @@
+React Comment App/Web-Forum Project
+This is a simple React app that displays a list of comments.
+
+Installation
+Make sure you have Node.js installed on your computer.
+Clone this repository to your local machine.
+Navigate to the project directory and run npm install to install the dependencies.
+
+Files
+index.html: The main HTML file that includes the React scripts and stylesheets.
+
+index.js: The entry point for the React app. It renders the App component into the #app element in index.html.
+
+App.js: The main component of the app. It imports the comment data and renders a list of Card components.
+
+Card.js: A component that represents a single comment. It renders the comment’s profile image, username, and text using the Header and Body components.
+
+Header.js: A component that renders the comment’s profile image and username.
+
+Body.js: A component that renders the comment’s text.
+
+commentData.js: A file that exports an array of comment objects.
+
+style.css: The stylesheet for the app.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
